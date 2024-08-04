@@ -1,0 +1,40 @@
+.header {
+    background: #3879a5;
+    color: #ecf0f1;
+    margin-bottom: 2rem;
+}
+
+.nav {
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.showCartBtn {
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.1rem;
+    display: flex;
+    gap: .8rem;
+    align-items: baseline;
+}
+
+.cartIconAndNumber {
+    position: relative;
+}
+
+.number {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: red;
+    border-radius: 50%;
+    font-size: .8rem;
+    line-height: 1.4;
+    top: -14px;
+    text-align: center;
+    right: -14px;
+}
